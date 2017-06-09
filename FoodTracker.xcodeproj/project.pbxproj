@@ -13,6 +13,7 @@
 		CD2C110D1EEA083200F66110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2C110C1EEA083200F66110 /* Assets.xcassets */; };
 		CD2C11101EEA083200F66110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2C110E1EEA083200F66110 /* LaunchScreen.storyboard */; };
 		CD2C111B1EEA083200F66110 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2C111A1EEA083200F66110 /* FoodTrackerTests.swift */; };
+		CD2C11281EEB57A700F66110 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2C11271EEB57A700F66110 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CD2C11161EEA083200F66110 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2C111A1EEA083200F66110 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		CD2C111C1EEA083200F66110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2C11271EEB57A700F66110 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CD2C11051EEA083200F66110 /* AppDelegate.swift */,
 				CD2C11071EEA083200F66110 /* ViewController.swift */,
 				CD2C11091EEA083200F66110 /* Main.storyboard */,
+				CD2C11271EEB57A700F66110 /* RatingControl.swift */,
 				CD2C110C1EEA083200F66110 /* Assets.xcassets */,
 				CD2C110E1EEA083200F66110 /* LaunchScreen.storyboard */,
 				CD2C11111EEA083200F66110 /* Info.plist */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2C11081EEA083200F66110 /* ViewController.swift in Sources */,
+				CD2C11281EEB57A700F66110 /* RatingControl.swift in Sources */,
 				CD2C11061EEA083200F66110 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
